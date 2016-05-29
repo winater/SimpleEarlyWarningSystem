@@ -1,0 +1,65 @@
+2014-06-11 01:58:26,651 - loader.complete.160 - INFO - Finish 1903309035
+2014-06-11 01:59:10,714 - loader.complete.160 - INFO - Finish 3196695142
+2014-06-11 01:59:38,841 - loader.complete.160 - INFO - Finish 3142295017
+2014-12-08 20:00:05,913 - loader._execute_bundle.248 - ERROR - Error when fetch url: http://weibo.com/1992087031/follow
+2014-12-08 20:00:05,914 - loader._log_error.199 - ERROR - Error when get bundle: 1992087031
+2014-12-08 20:00:05,914 - loader._log_error.200 - ERROR - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\09Limited_buffer\earlywarningbyci\cola\cola\worker\loader.py", line 229, in _execute_bundle
+    **options).parse()
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 587, in parse
+    return self._error(url, e)
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 89, in _error
+    raise e
+AttributeError: 'NoneType' object has no attribute 'find'
+2014-12-08 20:00:05,917 - loader.complete.160 - INFO - Finish 1992087031
+2014-12-08 20:00:36,375 - loader._execute_bundle.248 - ERROR - Error when fetch url: http://weibo.com/1337421364/follow
+2014-12-08 20:00:36,377 - loader._log_error.199 - ERROR - Error when get bundle: 1337421364
+2014-12-08 20:00:36,378 - loader._log_error.200 - ERROR - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\09Limited_buffer\earlywarningbyci\cola\cola\worker\loader.py", line 229, in _execute_bundle
+    **options).parse()
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 587, in parse
+    return self._error(url, e)
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 89, in _error
+    raise e
+AttributeError: 'NoneType' object has no attribute 'find'
+2014-12-08 20:00:36,381 - loader.complete.160 - INFO - Finish 1337421364
+2014-12-08 20:01:19,562 - loader._execute_bundle.248 - ERROR - Error when fetch url: http://weibo.com/3010113553/follow
+2014-12-08 20:01:19,563 - loader._log_error.199 - ERROR - Error when get bundle: 3010113553
+2014-12-08 20:01:19,565 - loader._log_error.200 - ERROR - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\09Limited_buffer\earlywarningbyci\cola\cola\worker\loader.py", line 229, in _execute_bundle
+    **options).parse()
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 587, in parse
+    return self._error(url, e)
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 89, in _error
+    raise e
+AttributeError: 'NoneType' object has no attribute 'find'
+2014-12-08 20:01:19,568 - loader.complete.160 - INFO - Finish 3010113553
+2014-12-08 20:02:10,200 - loader._execute_bundle.248 - ERROR - Error when fetch url: http://weibo.com/2203129044/follow
+2014-12-08 20:02:10,201 - loader._log_error.199 - ERROR - Error when get bundle: 2203129044
+2014-12-08 20:02:10,201 - loader._log_error.200 - ERROR - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\09Limited_buffer\earlywarningbyci\cola\cola\worker\loader.py", line 229, in _execute_bundle
+    **options).parse()
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 587, in parse
+    return self._error(url, e)
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 89, in _error
+    raise e
+AttributeError: 'NoneType' object has no attribute 'find'
+2014-12-08 20:02:10,203 - loader.complete.160 - INFO - Finish 2203129044
+2014-12-08 20:02:43,832 - loader._execute_bundle.248 - ERROR - Error when fetch url: http://weibo.com/2829108791/follow
+2014-12-08 20:02:43,832 - loader._log_error.199 - ERROR - Error when get bundle: 2829108791
+2014-12-08 20:02:43,834 - loader._log_error.200 - ERROR - 'NoneType' object has no attribute 'find'
+Traceback (most recent call last):
+  File "D:\09Limited_buffer\earlywarningbyci\cola\cola\worker\loader.py", line 229, in _execute_bundle
+    **options).parse()
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 587, in parse
+    return self._error(url, e)
+  File "D:\09Limited_buffer\earlywarningbyci\cola\contrib\weibo\parsers.py", line 89, in _error
+    raise e
+AttributeError: 'NoneType' object has no attribute 'find'
+2014-12-08 20:02:43,835 - loader.complete.160 - INFO - Finish 2829108791
+2014-12-08 20:02:43,884 - loader.finish.149 - INFO - Finish visiting pages count: 80
+2014-12-08 20:03:11,842 - loader.finish.149 - INFO - Finish visiting pages count: 80

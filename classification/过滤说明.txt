@@ -1,0 +1,9 @@
+1、连接mongodb，读入原始微博mid、content1、focus、content2(原文）、created（创建时间） ==before_predict.txt
+#2、对content1分词 ==before_predict_seg.txt
+3、用已知模型对广告、非广告分类，结果保存内容有：label、mid、focus、content2(原文)、created ==predicted.txt
+4、过滤广告，保存的内容有：mid，focus，content2（原文）、created  ==filter.txt
+
+5、R语言再次分词处理等
+
+#5、对content2再次分词，转成xml（未来考虑在这里分词的时候标注词性，只对名词动词后缀树聚类，在第4步多存一次原文，以便在聚类后显示原文？）
+
